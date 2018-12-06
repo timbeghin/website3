@@ -4,7 +4,7 @@
       src="https://i.imgur.com/MFWrZSx.png"
       height="80"
       alt="gatsby-universal"
-      title="gatsby-universal"
+      title="Hello Lrn - Its me Tim"
     />
   </a>
 </p>
