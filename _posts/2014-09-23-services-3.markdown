@@ -1,0 +1,8 @@
+---
+layout: default
+img: Data.jpg
+category: Services
+title: Storytelling
+description: |
+---
+For me, the best feeling is being able to understand a problem, generate a solution from data analysis and client interaction and then to provide a solution that makes sense. A powerful tool to help someone make sense of something is storytelling - I enjoy communicating with people so that their problems are heard, their fears are calmed and they are ready to engage with a solution. 

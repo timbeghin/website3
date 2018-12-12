@@ -1,0 +1,8 @@
+---
+layout: default
+img: IOT.png
+category: Services
+title: Data:<br> The Next frontier
+description: |
+---
+Data is all around us, and while its getting easier and easier to collect data, its tricky to wrangle it into something that makes sense for humans. I make tools that make it easier for humans to interact with data. <a href="https://github.com/timbeghin">Check out</a> some of the tools I have built that make it easier to handle data.
