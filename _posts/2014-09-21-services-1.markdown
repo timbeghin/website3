@@ -5,4 +5,4 @@ category: Services
 title: Renewable Energy
 description: |
 ---
-I spend most of my time <a href=" www.sinanienergy.com ">working</a> as a Renewable Energy Engineer, solving energy challlenge's for clients in the commerical and industrial sector. I enjoy learning about each clients unique operating environment and then finding solutions that meet their needs and improve their business.
+I spend most of my time working as a Renewable Energy Engineer, solving energy challlenge's for clients in the commerical and industrial sector. I enjoy learning about each clients unique operating environment and then finding solutions that meet their needs and improve their business.
