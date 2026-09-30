@@ -1,13 +1,72 @@
 <!DOCTYPE html>
-<html>
-	{% include head.html %}
-
-	<body>
-		{% include header.html %}
-		{% include about.html %}
-		{% include page_content.html %}
-		{% include contact.html %}
-		{% include footer.html %}
-		{% include js.html %}
-	</body>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>timbeghin.com</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #e9eff1;
+      --ink: #19262e;
+      --muted: #5b6b73;
+      --line: #c5d2d7;
+      --accent: #2a7485;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #121b20;
+        --ink: #e4ecef;
+        --muted: #93a4ab;
+        --line: #2a3a42;
+        --accent: #6bb5c5;
+      }
+    }
+    * { box-sizing: border-box; margin: 0; }
+    html, body { height: 100%; }
+    body {
+      display: grid;
+      place-items: center;
+      padding: 2rem;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Bricolage Grotesque", system-ui, -apple-system, "Segoe UI", sans-serif;
+    }
+    main { max-width: 40rem; width: 100%; }
+    h1 {
+      font-size: clamp(2.5rem, 10vw, 5.5rem);
+      font-weight: 700;
+      line-height: 0.95;
+      letter-spacing: -0.03em;
+      overflow-wrap: anywhere;
+    }
+    p {
+      margin-top: 1.5rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--line);
+      font-size: 1.125rem;
+      line-height: 1.55;
+      color: var(--muted);
+    }
+    a {
+      color: var(--accent);
+      text-underline-offset: 0.2em;
+    }
+    a:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 3px;
+      border-radius: 2px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>timbeghin.com</h1>
+    <p>This domain is parked for now. To get in touch, find me on
+      <a href="https://www.linkedin.com/in/timothybeghin/">LinkedIn</a>.</p>
+  </main>
+</body>
 </html>
